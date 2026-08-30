@@ -1,8 +1,25 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
+  "plugins": ["typescript", "react", "react-perf", "unicorn", "oxc", "import"],
+  "categories": {
+    "correctness": "error",
+    "suspicious": "warn"
+  },
   "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
+    "no-console": "off",
+    "unicorn/filename-case": "off",
+    "typescript/no-unused-vars": "warn",
+    "react/react-in-jsx-scope": "off",
+    "react-perf/jsx-no-new-function-as-prop": "off",
+    "react-perf/jsx-no-new-object-as-prop": "off",
+    "react-perf/jsx-no-new-array-as-prop": "off",
+    "import/no-unassigned-import": "off"
+  },
+  "env": {
+    "builtin": true,
+    "browser": true,
+    "es2024": true,
+    "node": true
+  },
+  "ignorePatterns": ["dist", "node_modules", "build", "coverage"]
 }
