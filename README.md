@@ -1,4 +1,4 @@
-# 금융 AI 안전 가이드 Frontend
+# SAFE:ON Frontend
 
 2026 금융 AI Challenge용 프론트엔드 프로젝트입니다. Figma 시안을 기준으로 React + TypeScript + Tailwind CSS로 구성되어 있으며, 백엔드가 아직 연결되지 않은 환경에서도 주요 화면을 데모 데이터로 확인할 수 있습니다.
 

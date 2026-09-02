@@ -16,7 +16,7 @@ const SERVICES = [
 export default function ServiceIntroPage() {
   return (
     <div>
-      <PageHeading eyebrow="서비스 알아보기" title="한 번의 판단보다, 여러 정보를 함께 확인합니다." description="금융 AI 안전 가이드는 대화·계좌·송금 금액을 각각 확인하고 마지막에 사용자가 직접 점검하도록 돕는 예방 서비스입니다." />
+      <PageHeading eyebrow="서비스 알아보기" title="한 번의 판단보다, 여러 정보를 함께 확인합니다." description="SAFE:ON은 대화·계좌·송금 금액을 각각 확인하고 마지막에 사용자가 직접 점검하도록 돕는 예방 서비스입니다." />
 
       <div className="mt-10 grid grid-cols-1 gap-5 md:grid-cols-2">
         {SERVICES.map((service) => (
