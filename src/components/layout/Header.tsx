@@ -12,7 +12,7 @@ export default function Header() {
     <header className="sticky top-0 z-40 h-[72px] w-full border-b border-border-subtle bg-white/95 backdrop-blur">
       <div className="mx-auto flex h-full max-w-[1440px] items-center px-6 lg:px-[72px]">
         <NavLink to="/" className="flex shrink-0 items-baseline gap-3.5">
-          <span className="text-[20px] font-bold text-ink-900">이름넣기</span>
+          <span className="text-[20px] font-bold text-ink-900">SAFE:ON</span>
           <span className="hidden text-[14px] font-medium text-ink-500 sm:inline">금융 AI 안전 가이드</span>
         </NavLink>
 
